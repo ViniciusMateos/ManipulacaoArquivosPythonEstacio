@@ -1,0 +1,7 @@
+Compreender os atributos de um objeto do tipo arquivo em Python é imprescindível para o desenvolvimento de software eficiente e seguro
+Esses atributos, como name, mode e closed, fornecem informações essenciais sobre o estado atual do arquivo, permitindo que os desenvolvedores gerenciem melhor os recursos do sistema.
+
+Saber quando um arquivo está aberto ou fechado, por exemplo, ajuda a prevenir erros comuns, como tentativas de acesso a um arquivo já fechado, garantindo a integridade dos dados e a estabilidade do aplicativo.
+
+
+

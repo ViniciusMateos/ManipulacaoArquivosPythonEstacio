@@ -1,0 +1,4 @@
+Olá mundo
+
+Oi né
+Adicionando usando o with para fechar adequadamente

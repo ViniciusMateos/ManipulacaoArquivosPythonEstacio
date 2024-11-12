@@ -1,0 +1,25 @@
+Quando abrimos um arquivo, precisamos informar ao Python o que desejamos fazer, ou seja, qual será o modo (mode) de acesso ao arquivo
+O modo é um dos parâmetros da função open, e cada modo é representado por uma string.
+
+principais modos são:
+
+r: leitura (read)
+w: escrita (write)
+a: acrescentar (append)
+
+modo padrão da função open é o modo leitura (“r”).
+
+Esses modos podem ser combinados e para informar que desejamos ler e escrever em um arquivo, utilizamos a string “r+”, por exemplo.
+
+O Python também nos permite diferenciar arquivos texto de arquivos binários, como uma imagem, por exemplo.
+Para informar que desejamos abrir um arquivo binário, adicionamos a string “b” ao modo, ficando “rb”, “wb” e “ab”.
+
+
+Caractere   /   Significado
+'r'	/ Abre o arquivo para leitura (default).
+'w'	/ Abre o arquivo para escrita, truncando o arquivo primeiro.
+'x'	/ Cria um arquivo para escrita e falha, caso ele exista.
+'a'	/ Abre o arquivo para escrita, acrescentando conteúdo ao final do arquivo, caso ele exista.
+'b'	/ Modo binário.
+'t'	/ Modo texto (default).
+'+'	/ Abre o arquivo para atualização (leitura ou escrita).

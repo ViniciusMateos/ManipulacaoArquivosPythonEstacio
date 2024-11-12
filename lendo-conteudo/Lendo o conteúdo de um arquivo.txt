@@ -1,0 +1,22 @@
+formas de ler o conteúdo do arquivo.
+
+Read()
+    - Retorna todo o conteúdo de um arquivo como uma única string.
+
+Readline()
+    - Retorna uma linha de arquivo, incluindo caracteres de final (\n ou \r\n), e avança o cursor para a próxima.
+
+Readlines()
+    - Retorna uma lista em que cada item da lista é uma linha do arquivo.
+
+
+
+- quando abrimos o arquivo utilizando o modo leitura (‘r’), o cursor interno de leitura fica posicionado no início do arquivo.
+
+- Quando precisamos abrir um arquivo muito grande, é inviável utilizar os métodos read e readlines, pois eles retornam todo o conteúdo do arquivo de uma só vez, seja na forma de string, seja na forma de lista
+- Isso pode consumir todos os recursos do computador, travando seu programa.
+
+- Nesses casos, precisamos chamar o método readline inúmeras vezes até o final do arquivo ou iterar diretamente sobre o objeto do tipo arquivo.
+
+
+- Após utilizar qualquer um dos métodos para leitura do arquivo apresentado, não podemos utilizá-los novamente. Isso acontece porque o cursor estará posicionado ao final do arquivo, e as chamadas aos métodos read, readline ou readlines retornarão vazias.

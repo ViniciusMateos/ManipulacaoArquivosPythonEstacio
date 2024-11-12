@@ -1,0 +1,24 @@
+O caminho de um arquivo pode ser classificado em dois tipos:
+
+Absoluto:
+    - É a referência completa para se encontrar um arquivo ou diretório. Ele deve começar com uma barra ( / ) ou o rótulo do drive ( C:, D: ...).
+
+Exemplo:
+
+open(“C:\Downloads\arquivo.txt”) – utilizado em ambientes MS Windows.
+open(“/home/usuario/arquivo.txt”) – utilizado em ambientes Linux.
+
+
+---------------------------------------------------------------------------------------
+
+Relativo
+    - É a referência para se encontrar um arquivo ou diretório a partir de outro diretório. Normalmente, a partir do diretório de onde o script está.
+
+Exemplo:
+
+open(“arquivo.txt”), para os casos em que o arquivo está no mesmo diretório do script.
+open(“../arquivo.txt”), para os casos em que o arquivo está no diretório acima do script.
+
+
+
+
