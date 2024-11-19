@@ -1,0 +1,15 @@
+Implemente um script em Python que realize as seguintes operações:
+
+- Verifique se os diretórios de destino (pdf, txt, img) existem; caso contrário, crie-os.
+- Mova os arquivos do diretório de trabalho para os diretórios correspondentes com base em suas extensões.
+- Trate possíveis exceções durante as operações, exibindo mensagens informativas ao usuário.
+
+#####################################
+
+módulo shutil
+
+- oferece várias operações de alto nível em arquivos e coleções de arquivos
+- Ele é especialmente útil para copiar, mover, renomear e remover arquivos e diretórios
+- shutil.move é utilizada para mover um arquivo ou diretório de um local para outro, sendo uma ferramenta essencial para a organização de arquivos.
+
+
