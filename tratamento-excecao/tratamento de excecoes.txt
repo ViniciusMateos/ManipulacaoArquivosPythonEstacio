@@ -1,0 +1,21 @@
+- Quando uma falha inesperada ocorre e o interpretador não consegue resolver o problema, dizemos que houve uma exceção
+- Nesses casos, precisamos informar ao interpretador como tratar a exceção, para que o programa não seja interrompido.
+
+- Não é uma boa prática utilizar exceções abrangentes, pois elas podem silenciar erros que não esperamos. 
+- o ideal é tratar as exceções utilizando a forma mais específica possível.
+
+- algumas exceções específicas relacionadas à manipulação de arquivos e alguns motivos que podem gerar essas exceções:
+
+    PermissionError
+        - Lançada quando não temos permissão para realizar uma operação.
+
+    FileExistsError
+        - Lançada quando tentamos criar um arquivo ou diretório já existentes.
+        obs: Para os casos em que desejamos renomear sobrescrevendo o arquivo destino, caso ele exista, podemos utilizar a função replace, também do módulo os.
+
+
+    FileNotFoundError
+        - Lançada quando tentamos abrir um arquivo ou diretório que não existem.
+
+    IsADirectoryError
+        - Ocorre quando tentamos remover um diretório usando a função remove, em vez de rmdir.
